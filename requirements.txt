@@ -3,4 +3,4 @@ numpy==2.1.2
 streamlit
 joblib
 scikit-learn
-pip==24.0
+pip==23.0.1

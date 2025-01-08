@@ -3,4 +3,4 @@ numpy==2.1.2
 streamlit
 pickle
 scikit-learn
-pip==24.2
+pip==24.0

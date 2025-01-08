@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-import os
 
 with open('fish.pkl', 'rb') as model_file:
     data = pickle.load(model_file)

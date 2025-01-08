@@ -3,13 +3,10 @@ import pickle
 import numpy as np
 import os
 
-
-with open('D:/Machine Learning/UAS_AldoAdityaSaputra_2213020179/supervised/fish.pkl', 'rb') as model_file:
+with open('fish.pkl', 'rb') as model_file:
     data = pickle.load(model_file)
     loaded_model = data['model']
     scaler = data['scaler']
-
-
 
 st.title('Prediksi Spesies Ikan')
 
